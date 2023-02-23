@@ -4,14 +4,16 @@ var container = document.querySelector('#spaceShip');
 
     const spaceShip = document.getElementById('spaceShip')
 
-    container.addEventListener("keypress", getClickPosition, false);
+    container.addEventListener("click", getClickPosition, false);
 
     function getClickPosition(e){
 
-        theImg.style.left = 300 +"px";
-        theImg.style.top = 300 + "px";
+        spaceShip.style.left = 300 +"px";
+        spaceShip.style.top = 300 + "px";
         
     }
+
+
     
 
  }());
