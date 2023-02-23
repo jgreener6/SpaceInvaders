@@ -1,0 +1,22 @@
+img {
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    margin: 0px;
+}
+body {
+   
+}
+
+div {
+    position: absolute;
+    width: 200px; 
+    height: 200px; 
+    background-color: aqua;
+    border-left: 5px solid green;
+    border-right: 5px solid green;
+    border-top: 5px solid green;
+    border-bottom: 5px solid green;
+}
